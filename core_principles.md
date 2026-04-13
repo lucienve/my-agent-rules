@@ -11,6 +11,11 @@ You must strictly adhere to these fundamental principles during execution:
 - **Resilient Execution:** Always wrap file I/O operations, network/API requests, and critical data mutations in robust error handling blocks. Always fail gracefully.
 - **Security Posture:** Never commit secrets, credentials, or API keys. Do not hardcode sensitive data. Credentials must be read from environment variables or files that are not tracked in source control.
 - **Comment Style:** Maintain a calm, professional, and informative tone in all code comments. Do not use exclamation marks or overly dramatic language (e.g., "explosively", "rigidly", "physically", "natively").
+- **Think before coding:**
+  - State your assumptions explicitly. If uncertain, ask.
+  - If multiple interpretations exist, present them - don't pick silently.
+  - If a simpler approach exists, say so. Push back when warranted.
+  - If something is unclear, stop. Name what's confusing. Ask.
 
 # Documentation Standards
 
