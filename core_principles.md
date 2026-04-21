@@ -26,6 +26,11 @@ You must strictly adhere to these fundamental principles during execution:
 - **Do not commit:** Do not take the final step of committing anything to source
   control. A human will need to make a final review of the changes, then do this
   manually.
+- **Preserve Git History:** When moving or renaming files, always do so in a way
+  that preserves git history (e.g., using `git mv`).
+- **Database Modifications:** Database schema changes or direct table value
+  modifications are strictly prohibited. You must only provide the SQL scripts
+  or instructions for the human to execute these changes manually.
 - **Project Context:** Summarize the current plan, completed tasks, and
   architectural decisions into `docs/project_context.md`. You must aggressively
   keep this file up to date whenever major changes, structural decisions, or
