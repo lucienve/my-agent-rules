@@ -18,6 +18,7 @@ To perform lookups by street address, construct `GET` or `POST` requests to the 
 The default property data is stored in uppercase. To ensure searches are case-insensitive, always use the SQL `UPPER()` function combined with the `LIKE` operator and wildcards (`%`). 
 - **Standard Field**: `Situs` (The physical address on record)
 - **Syntax**: `where=UPPER(Situs) LIKE UPPER('%[ADDRESS_STRING]%')`
+- **Street Names**: Please use abbreviations when searching by the road name.  For example, use "St" instead of Street.
 
 ### 2. Output Formatting
 - **Format (`f`)**: Always request `json` or `pjson` for machine readability.
