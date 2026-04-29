@@ -35,3 +35,4 @@ You must strictly adhere to these fundamental principles during execution:
   architectural decisions into `docs/project_context.md`. You must aggressively
   keep this file up to date whenever major changes, structural decisions, or
   feature completions occur to ensure state persists successfully.
+- **Post-Edit Verification:** You MUST proactively run the appropriate unit tests and linter immediately after making any code changes. This is a non-negotiable requirement to catch errors, ensure code quality, and prevent regressions before proceeding.
