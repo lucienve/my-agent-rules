@@ -1,3 +1,8 @@
+---
+trigger: model_decision
+description: MySQL Spatial Coordinates Rules
+---
+
 # MySQL Spatial Coordinates Rules
 
 When working with MySQL spatial data types (such as `POINT`, `POLYGON`) and the GPS coordinate system (`SRID 4326`), you must strictly adhere to the following rules to avoid axis-order confusion.

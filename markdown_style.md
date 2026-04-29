@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: "*.md"
 description: Markdown standards, linting, and stylistic requirements.
 ---
 

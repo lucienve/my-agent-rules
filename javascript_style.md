@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: "*.js"
 description: JavaScript coding standards, testing, and stylistic requirements.
 ---
 

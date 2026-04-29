@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: "*.py"
 description: Python coding standards, testing, and stylistic requirements.
 ---
 

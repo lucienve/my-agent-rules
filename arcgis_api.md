@@ -1,4 +1,8 @@
-<agent_rules>
+---
+trigger: model_decision
+description: Integrations with Pike county GIS API.
+---
+
 # Pike County GIS API Integration Rules
 
 This rule file defines the technical specifications and interaction patterns for accessing the Pike County, Pennsylvania GIS data via its ArcGIS REST API. When developing applications or writing scripts that interface with this data, follow these guidelines strictly.
@@ -47,4 +51,3 @@ Host: gis.pikepa.org
 ## Documentation & Resources
 - **ArcGIS REST API Documentation**: Refer to the [ESRI Query Reference](https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer-.htm) for advanced filtering (e.g., spatial intersections or date-based queries).
 - **Machine-Readable API Discovery**: The ArcGIS REST API is inherently self-documenting. Appending `?f=pjson` to *any* endpoint (the base services directory, a specific MapServer, or a layer) returns a machine-readable JSON representation defining all available layers, operations, spatial references, and field metadata.
-</agent_rules>

@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: "*.php"
 description: PHP coding standards, testing, and stylistic requirements.
 ---
 
