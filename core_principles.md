@@ -35,4 +35,6 @@ You must strictly adhere to these fundamental principles during execution:
   architectural decisions into `docs/project_context.md`. You must aggressively
   keep this file up to date whenever major changes, structural decisions, or
   feature completions occur to ensure state persists successfully.
-- **Post-Edit Verification:** You MUST proactively run the appropriate unit tests and linter immediately after making any code changes. This is a non-negotiable requirement to catch errors, ensure code quality, and prevent regressions before proceeding.
+- **Mandate Verification Checklist Items:** When creating a task.md artifact, the final required checklist items MUST explicitly be `[ ] Run unit tests` and `[ ] Run linter`. You may not mark these as complete until you have executed the commands and verified an exit code of 0.
+- **Standardize the Verification Plan:** When drafting an implementation_plan.md, the Verification Plan section MUST explicitly contain the exact bash commands required to lint and test the modified code.
+- **Ban "Blind" Refactoring:** If a code edit or refactor is made outside of a formal plan (e.g., a quick fix), you must immediately chain a run_command tool call to execute the linter and test suite in the exact same turn.
